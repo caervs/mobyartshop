@@ -1,8 +1,7 @@
 # Moby Art Store Demo Application
 
-## Current build and run (this will be improved)
-```bash
-make images
+## Current build and run
+docker-compose build
 docker-compose up
 ```
 
