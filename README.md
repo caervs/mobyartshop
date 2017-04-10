@@ -2,8 +2,7 @@
 
 ## Current build and run (this will be improved)
 ```bash
-docker run -ti -v $(pwd):/mobyartshop -w /mobyartshop maven:alpine mvn package -DskipTests
-docker-compose build
+make images
 docker-compose up
 ```
 
