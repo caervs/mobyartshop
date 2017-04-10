@@ -1,8 +1,7 @@
 # Moby Art Store Demo Application
 
-## Current build and run (this will be improved)
+## Current build and run
 ```bash
-docker run -ti -v $(pwd):/mobyartshop -w /mobyartshop maven:alpine mvn package -DskipTests
 docker-compose build
 docker-compose up
 ```
